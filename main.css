@@ -1,0 +1,47 @@
+.box {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 3px;
+    resize: none;
+    font-size: 1em;
+    padding: 5px;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.btn-success {
+    background: #4caf50;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px;
+}
+
+.btn-danger {
+    background: #e62e00;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
+}
+
+#divTasks > div{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.divButton {
+    text-align: right;
+}

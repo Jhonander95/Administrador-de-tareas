@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="box">
+        <div>
+            <label >Texto de la Tarea</label>
+            <textarea name="" id="textTask" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button class="btn-success" onclick="taskManager.add()" >Guardar</button>
+        </div>
+
+        <div id="divTasks">
+
+        </div>
+    </div>
+</body>
+<script>
+    let taskManager = new TaskManager(
+        document.getElementById("divTasks"),
+        document.getElementById("textTask")
+    );
+</script>
+
+</html>
